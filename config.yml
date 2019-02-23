@@ -1,0 +1,9 @@
+radius: 2
+sponge-lava: true
+do-physics: true
+save-interval: 300
+sponge-materials:
+  - SPONGE
+  # - MOB_SPAWNER
+messages:
+  no-permission-command: "&cYou do not have permission to execute this command!"

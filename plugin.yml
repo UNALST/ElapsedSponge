@@ -1,0 +1,9 @@
+name: ElapsedSponge
+version: 1.0.0
+authors: [EyesOfRinn, Spec, Headshot]
+main: org.elapsed.sponge.ElapsedSpongePlugin
+
+commands:
+  elapsedsponge:
+    description: default ElapsedSponge command
+    aliases: [es]
