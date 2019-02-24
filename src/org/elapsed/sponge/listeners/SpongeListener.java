@@ -41,7 +41,8 @@ public class SpongeListener implements Listener {
 
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onExplode(final EntityExplodeEvent event) {
-        for (final Block block : event.blockList()) {
+        for (int i = 0; i < event.blockList().size(); i++) {
+            final Block block = event.blockList().get(i);
             if (block.getType() == Material.SPONGE) {
                 this.sponges.unsponge(block);
             }
